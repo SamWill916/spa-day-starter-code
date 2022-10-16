@@ -1,4 +1,4 @@
-package org.launchcode.spaday.models;
-
-public class User {
-}
+//package org.launchcode.spaday.models;
+//
+//public class User {
+//}
