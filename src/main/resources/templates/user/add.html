@@ -4,5 +4,25 @@
     <meta charset="UTF-8"/>
     <title></title>
 </head>
-<body></body>
+<body>
+<form method="post" th:action="@{/user/add}"></form>
+<label>
+    Username:
+    <input type="text" name="username" th:value="${username}">
+</label>
+<label>
+    Email:
+    <input type="email" name="email" th:value="${email}">
+</label>
+<label>
+    Password:
+    <input type="password" name="username">
+</label>
+<label>
+    Verify Password:
+    <input type="password" name="verify">
+
+</label>
+<input type="submit" name="Sign up">
+</body>
 </html>
